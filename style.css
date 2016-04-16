@@ -48,18 +48,9 @@ p {
   padding-bottom: 20px;
 }
 
-input[type="text"],
-input[type="password"],
-input[type="date"],
-input[type="datetime"],
-input[type="email"],
-input[type="number"],
-input[type="search"],
-input[type="tel"],
-input[type="time"],
-input[type="url"],
-textarea,
-select {
+
+
+textarea {
   background: rgba(255,255,255,0.1);
   border: none;
   border-radius: 10px;
@@ -74,6 +65,8 @@ select {
   box-shadow: 0 5px 5px rgba(0,0,0,0.03) inset;
   margin-bottom: 15px;
 }
+
+
 
 input:focus,
 textarea:focus {
@@ -129,10 +122,8 @@ legend {
 }
 
 
-label {
-  display: block;
-  margin-bottom: 8px;
-}
+
+
 
 label.light {
   font-weight: 300;
